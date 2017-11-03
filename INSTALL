@@ -1,0 +1,23 @@
+Installation
+------------
+
+These are a basic, incomplete build instructions. 
+
+1. Ensure CMake is installed in your system
+
+2. Uncompress and extract the package
+
+3. Enter the msgcomm directory, and create there the directory
+   build, at the same level of the directory src.  Move to that
+   directory:
+
+      $ mkdir build
+      $ cd build
+
+4. Execute cmake with the parent directory as the project directory:
+
+      $ cmake ..
+
+5. Run make.  The library and the examples are created:
+
+      $ make
